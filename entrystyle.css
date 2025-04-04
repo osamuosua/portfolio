@@ -1,0 +1,53 @@
+.bodyIndex{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index{
+    font-family: Verdana;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 400px;
+}
+
+.entry{
+    margin-bottom: 1%;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+.textEnter{
+    width: 300px;
+    height: 2em;
+    text-align: center;
+    font-size: .5em;
+    font-family: Verdana;
+    background-color: rgba(255, 255, 255, 0.671);
+    margin-top: 1%;
+    border: none;
+    border-radius: 18px;
+}
+
+.submitEnter{
+    width: 200px;
+    height: 2em;
+    font-family: Verdana;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.404);
+    margin-top: 1%;
+    cursor: pointer;
+    box-shadow: inset;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 9px #505050;
+}
+
+.submitEnter:hover{
+    opacity: 0.6
+}
+
+.submitEnter:active{
+    background-color: #00ff08;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
